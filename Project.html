@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="layout">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Academics.html">Academics</a></li>
+                    <li><a href="Project.html" class="active">Projects</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="projects-container">
+                <h1>My Projects</h1>
+                <p>Here you'll find all my academic projects organized by category. Click on any project to view details.</p>
+                
+                <div class="project-content-container">
+                    <div id="project-content" class="project-content">
+                        <div class="content-header">
+                            <h2 id="content-title">Select a project to view details</h2>
+                            <button id="close-content" class="close-button">&times;</button>
+                        </div>
+                        <div id="content-body">
+                           
+                        </div>
+                        <div id="project-iframe-container" class="project-iframe-container">
+                            <!-- Project iframe will be loaded here -->
+                        </div>
+                        <div class="project-actions">
+                            <a id="view-project-btn" href="#" target="_blank" class="view-project-btn">Open Project in New Tab</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <table class="project-table">
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Project</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Laboratory Projects -->
+                        <tr class="category-header">
+                            <td colspan="2">Laboratory</td>
+                        </tr>
+                        <tr>
+                            <td>Lab 1</td>
+                            <td><a href="#" class="project-link" data-project="lab1" data-url="all lab/lab/Laboratory 1 - Laenier.html">Laboratory 1 - Laenier</a></td>
+                        </tr>
+                        <tr>
+                            <td>Lab 2</td>
+                            <td><a href="#" class="project-link" data-project="lab2" data-url="all lab/lab/Laboratory 2 - Laenier.html">Laboratory 2 - Laenier</a></td>
+                        </tr>
+                        <tr>
+                            <td>Lab 3</td>
+                            <td><a href="#" class="project-link" data-project="lab3" data-url="all lab/lab/Laboratory 3.html">Laboratory 3</a></td>
+                        </tr>
+                        <tr>
+                            <td>Lab 4</td>
+                            <td><a href="#" class="project-link" data-project="lab4" data-url="all lab/lab/Laboratory 4.html">Laboratory 4</a></td>
+                        </tr>
+                        <tr>
+                            <td>Lab 5</td>
+                            <td><a href="#" class="project-link" data-project="lab5" data-url="all lab/lab/Laboratory5.html">Laboratory 5</a></td>
+                        </tr>
+                        <tr>
+                            <td>Lab 6</td>
+                            <td><a href="#" class="project-link" data-project="lab6" data-url="all lab/lab/Laboratory6.html">Laboratory 6</a></td>
+                        </tr>
+                        <tr>
+                            <td>Lab 7</td>
+                            <td><a href="#" class="project-link" data-project="lab7" data-url="all lab/lab/Laboratory7.html">Laboratory 7</a></td>
+                        </tr>
+                        <tr>
+                            <td>Lab 8</td>
+                            <td><a href="#" class="project-link" data-project="lab8" data-url="all lab/lab/Laboratory8.html">Laboratory 8</a></td>
+                        </tr>
+                        
+                        <!-- Exercise Projects -->
+                        <tr class="category-header">
+                            <td colspan="2">Exercise</td>
+                        </tr>
+                        
+                        <!-- Exercise 1 -->
+                        <tr class="subcategory-header">
+                            <td colspan="2">Exercise : Data Types</td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 1</td>
+                            <td><a href="#" class="project-link" data-project="ex1_1" data-url="all lab/E1/exercise1.php">Personal information</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 2</td>
+                            <td><a href="#" class="project-link" data-project="ex1_2" data-url="all lab/E1/exercise2.php">Value added tax</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 3</td>
+                            <td><a href="#" class="project-link" data-project="ex1_3" data-url="all lab/E1/exercise3.php">Average</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 4</td>
+                            <td><a href="#" class="project-link" data-project="ex1_4" data-url="all lab/E1/exercise4.php">Countries and capitals</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 5</td>
+                            <td><a href="#" class="project-link" data-project="ex1_5" data-url="all lab/E1/exercise5.php">Centimeters to inches</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 6</td>
+                            <td><a href="#" class="project-link" data-project="ex1_6" data-url="all lab/E1/exercise6.php">Expenses</a></td>
+                        </tr>
+                        
+                        <!-- Exercise 2 -->
+                        <tr class="subcategory-header">
+                            <td colspan="2">Exercise : Control Structures</td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 1</td>
+                            <td><a href="#" class="project-link" data-project="ex2_1" data-url="all lab/E2/exercise1.php">1</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 2</td>
+                            <td><a href="#" class="project-link" data-project="ex2_2" data-url="all lab/E2/exercise2.php">2</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 3</td>
+                            <td><a href="#" class="project-link" data-project="ex2_3" data-url="all lab/E2/exercise3.php">3</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 4</td>
+                            <td><a href="#" class="project-link" data-project="ex2_4" data-url="all lab/E2/exercise4.php">4</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 5</td>
+                            <td><a href="#" class="project-link" data-project="ex2_5" data-url="all lab/E2/exercise5.php">5</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 6</td>
+                            <td><a href="#" class="project-link" data-project="ex2_6" data-url="all lab/E2/exercise6.php">6</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 7</td>
+                            <td><a href="#" class="project-link" data-project="ex2_7" data-url="all lab/E2/exercise7.php">7</a></td>
+                        </tr>
+                        
+                        <!-- Exercise 3 -->
+                        <tr class="subcategory-header">
+                            <td colspan="2">Exercise : Functions</td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 1</td>
+                            <td><a href="#" class="project-link" data-project="ex3_1" data-url="all lab/E3/exercise1.php">Vat calculator</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 2</td>
+                            <td><a href="#" class="project-link" data-project="ex3_2" data-url="all lab/E3/exercise2.php">Leap year</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 3</td>
+                            <td><a href="#" class="project-link" data-project="ex3_3" data-url="all lab/E3/exercise3.php">Calculator</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 4</td>
+                            <td><a href="#" class="project-link" data-project="ex3_4" data-url="all lab/E3/exercise4.php">Swapping numbers</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 5</td>
+                            <td><a href="#" class="project-link" data-project="ex3_5" data-url="all lab/E3/exercise5.php">Even or odd</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 6</td>
+                            <td><a href="#" class="project-link" data-project="ex3_6" data-url="all lab/E3/exercise6.php">Prime number</a></td>
+                        </tr>
+                        
+                        <!-- Exercise 4 -->
+                        <tr class="subcategory-header">
+                            <td colspan="2">Exercise : Build in Functions</td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 1</td>
+                            <td><a href="#" class="project-link" data-project="ex4_1" data-url="all lab/E4/exercise1.php">Sorting array</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 2</td>
+                            <td><a href="#" class="project-link" data-project="ex4_2" data-url="all lab/E4/exercise2.php">Birthday countdown</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 3</td>
+                            <td><a href="#" class="project-link" data-project="ex4_3" data-url="all lab/E4/exercise3.php">Generating random float numbers</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 4</td>
+                            <td><a href="#" class="project-link" data-project="ex4_4" data-url="all lab/E4/exercise4.php">Lower case</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 5</td>
+                            <td><a href="#" class="project-link" data-project="ex4_5" data-url="all lab/E4/exercise5.php">Search inside of a text</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 6</td>
+                            <td><a href="#" class="project-link" data-project="ex4_6" data-url="all lab/E4/exercise6.php">Lowest and highest values</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exercise 7</td>
+                            <td><a href="#" class="project-link" data-project="ex4_7" data-url="all lab/E4/exercise7.php">String repeat</a></td>
+                        </tr>
+                        
+                        <!-- Final Project -->
+                        <tr class="category-header final-project">
+                            <td colspan="2">Final Project</td>
+                        </tr>
+                        <tr class="final-project">
+                            <td>Project</td>
+                            <td><a href="FinalProject.html" class="final-project-link">InventoryPOS</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 [Laenier Molina]. All rights reserved.</p>
+        </footer>
+    </div>
+
+  
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const projectLinks = document.querySelectorAll('.project-link');
+            const projectContent = document.getElementById('project-content');
+            const contentTitle = document.getElementById('content-title');
+            const contentBody = document.getElementById('content-body');
+            const closeButton = document.getElementById('close-content');
+            const projectData = document.getElementById('project-data');
+            const iframeContainer = document.getElementById('project-iframe-container');
+            const viewProjectBtn = document.getElementById('view-project-btn');
+            
+            // Initially hide the content panel
+            projectContent.classList.add('hidden');
+            
+            // Add click event to all project links
+            projectLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Get the project ID from data attribute
+                    const projectId = this.getAttribute('data-project');
+                    
+                    // Get the project URL from data attribute
+                    const projectUrl = this.getAttribute('data-url');
+                    
+                    // Get the project title from the link text
+                    const projectTitle = this.textContent;
+                    
+                    // Find the content for this project
+                    const contentElement = document.getElementById(projectId + '-content');
+                    
+                    // Update the content panel
+                    contentTitle.textContent = projectTitle;
+                    
+                    if (contentElement) {
+                        // Show the description
+                        contentBody.innerHTML = contentElement.innerHTML;
+                    } else {
+                        // If content not found, show a placeholder
+                        
+                    }
+                    
+                    // Clear any existing iframe
+                    iframeContainer.innerHTML = '';
+                    
+                    // Create and add the iframe if URL exists
+                    if (projectUrl) {
+                        const iframe = document.createElement('iframe');
+                        iframe.src = projectUrl;
+                        iframe.className = 'project-iframe';
+                        iframe.title = projectTitle;
+                        iframeContainer.appendChild(iframe);
+                        
+                        // Update the "View Project" button
+                        viewProjectBtn.href = projectUrl;
+                        viewProjectBtn.style.display = 'inline-block';
+                    } else {
+                        // Hide the button if no URL
+                        viewProjectBtn.style.display = 'none';
+                    }
+                    
+                    // Show the content panel
+                    projectContent.classList.remove('hidden');
+                    
+                    // Scroll to the content panel
+                    projectContent.scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+            
+            // Close button functionality
+            closeButton.addEventListener('click', function() {
+                projectContent.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
